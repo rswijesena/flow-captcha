@@ -1,0 +1,27 @@
+{
+  "name": "qr",
+  "version": "1.0.0",
+  "description": "QR & barcode scanner",
+  "scripts": {
+    "start": "esbuild ./src/CaptchaNew.tsx --outfile=./build/CaptchaNew.js --sourcemap=both --serve=8080 --servedir=build --bundle --format=esm --watch",
+    "build": "esbuild ./src/CaptchaNew.tsx --outfile=./build/CaptchaNew.js --bundle  --format=esm --target=chrome58,firefox57,safari11,edge16",
+    "startlegacy": "esbuild ./src/CaptchaLegacy.tsx --outfile=./build/CaptchaLegacy.js --sourcemap=both --serve=8080 --servedir=build --bundle --format=esm --watch",
+    "buildlegacy": "esbuild ./src/CaptchaLegacy.tsx --outfile=./build/CaptchaLegacy.js --bundle  --format=esm --target=chrome58,firefox57,safari11,edge16"
+  },
+  "author": "Boomi",
+  "license": "MIT",
+  "dependencies": {
+    "@zxing/library": "^0.20.0",
+    "buffer": "^6.0.3",
+    "event": "^1.0.0",
+    "events": "^3.3.0",
+    "fcmlib": "^1.0.9",
+    "react": "18.2.0",
+    "react-simple-captcha": "^9.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@types/react": "^18.2.28",
+    "esbuild": "0.19.4"
+  }
+}
