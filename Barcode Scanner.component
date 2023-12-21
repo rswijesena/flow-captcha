@@ -1,0 +1,26 @@
+{
+    "key":"captcha",
+    "legacyScriptURL":"http://localhost:8080/CaptchaLegacy.js",
+    "scriptURL":"http://localhost:8080/qr_ng.js",
+    "legacyStyleSheetURL":"http://localhost:8080/qr_leg.css",
+    "styleSheetURL":"http://localhost:8080/qr_ng.css",
+    "icon":"Barcode",
+    "attributes":{
+        "onStop":"Stop Outcome",
+        "onAccept":"Success Outcome",
+        "onCancel":"Cancel Outcome",
+        "onDetect":"Detect Outcome",
+        "scanFormats":"Scan Formats \"QR_CODE, CODE_128, CODE_39, UPC_EAN_EXTENSION, EAN_8, EAN_13, CODABAR, CODE_93, AZTEC, DATA_MATRIX, ITF, MAXICODE, PDF_417, RSS_14, RSS_EXPANDED, UPC_A, UPC_E\""
+    },
+    "configurationEditors":[],
+    "designTimeImageURL":null,
+    "designTimeRenderType":"IMAGE",
+    "dateCreated":"2023-10-14T09:45:25.85022+00:00",
+    "dateModified":"2023-10-14T14:28:18.5418014+00:00",
+    "id":"805037e0-a17c-4bd0-9ffc-7d076bd9366a",
+    "elementType":"CUSTOM_PAGE_COMPONENT",
+    "developerName":"Barcode Scanner","developerSummary":"A component to scan BAR and QR codes",
+    "whoCreated":{"id":"4e027512-3134-4403-91c2-227e8256a7f0","firstName":"Mark","lastName":"Watts","email":"markwatts@boomi.com"},
+    "whoModified":{"id":"4e027512-3134-4403-91c2-227e8256a7f0","firstName":"Mark","lastName":"Watts","email":"markwatts@boomi.com"},
+    "whoOwner":{"id":"4e027512-3134-4403-91c2-227e8256a7f0","firstName":"Mark","lastName":"Watts","email":"markwatts@boomi.com"}    
+}
