@@ -1,7 +1,7 @@
 {
-  "name": "qr",
+  "name": "flow-captcha",
   "version": "1.0.0",
-  "description": "QR & barcode scanner",
+  "description": "flow captcha",
   "scripts": {
     "start": "esbuild ./src/CaptchaNew.tsx --outfile=./build/CaptchaNew.js --sourcemap=both --serve=8080 --servedir=build --bundle --format=esm --watch",
     "build": "esbuild ./src/CaptchaNew.tsx --outfile=./build/CaptchaNew.js --bundle  --format=esm --target=chrome58,firefox57,safari11,edge16",
