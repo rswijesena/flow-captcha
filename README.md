@@ -1,10 +1,58 @@
-# **Flow-captcha - Developer Guide**
+# **Flow-captcha**
 
 This custom component for Boomi Flow facilitates the inclusion of a CAPTCHA feature within flow forms, empowering users with enhanced security measures during form interactions.
 
 An exceptional capability within Boomi Flow is its custom component feature, offering developers the freedom to craft personalized UI components. This feature allows integrating custom-coded elements seamlessly into Flows primarily constructed using intuitive drag-and-drop low-code techniques.
 
 This documentation would help you to understand how to build a custom react-captcha component and shows the steps to integrate with Boomi flow.
+
+
+# **User Guide.**
+
+
+
+1. Create new custom components in the Boomi flow and configure below java scripts in relevant environments.
+2. Add an attribute to the component. Attribute name is - onAccept
+3. In the flow page’s captcha component set the value for attribute name.  The value should be the name of your next outcome where you need to route your flow upon successful form submission
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+
+
+## Default New Player 
+
+Sample flow - 
+
+[https://us.flow-prod.boomi.com/bcb706ba-c04b-47f8-9ac8-45b9fd01efa7/play/default/?flow-id=9a436e75-e44b-4f70-90d1-b1d035eb0dd8](https://us.flow-prod.boomi.com/bcb706ba-c04b-47f8-9ac8-45b9fd01efa7/play/default/?flow-id=9a436e75-e44b-4f70-90d1-b1d035eb0dd8)
+
+Token - 27WuRf93tQ54Ub/yh8dMDmbcAQS96tanEOIrx0V1I5NMg+DRNP3OUUjSlQ75Q/2d
+
+Javascript file - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.js](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.js)
+
+CSS File - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css)
+
+
+## Default - Legacy 
+
+Token - 27WuRf93tQ54Ub/yh8dMDmbcAQS96tanEOIrx0V1I5NMg+DRNP3OUUjSlQ75Q/2d
+
+Java script file - 
+
+[https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaNew.js](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaNew.js)
+
+CSS File - same css file will work for both players. 🙂
+
+[https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css)
+
+Sample flow 
+
+[https://us.flow-prod.boomi.com/bcb706ba-c04b-47f8-9ac8-45b9fd01efa7/play/default-legacy/?flow-id=9a436e75-e44b-4f70-90d1-b1d035eb0dd8](https://us.flow-prod.boomi.com/bcb706ba-c04b-47f8-9ac8-45b9fd01efa7/play/default-legacy/?flow-id=9a436e75-e44b-4f70-90d1-b1d035eb0dd8)
+
+
+# **Developer Guide**
 
 
 ## What is a custom component in Boomi flow?
@@ -103,3 +151,14 @@ Now you already have the source code of the component, what is missing is the co
 If you go to your VS-Code terminal project root folder and hit _npm run build, _it will build the CaptchaNew.tsx file and make an output in the build folder file named CaptchaNew.js.
 
 In the same way you run npm run buildlegacy it will create CaptchaLegacy.js file inside the project build folder.
+
+
+# Debugging and testing
+
+My favorite part of these react components and Boomi flow is, we can easily debug and test our code changes. First thing is you need to start the development server by running _npm run start _command, package.json will execute start command and it will give you localhost running urls like below,
+
+ > Network: http://192.168.1.105:8080/
+
+ > Local:   http://127.0.0.1:8080/
+
+You can use these urls in the Boomi flow custom component registry, it will directly communicate with your local development environment.
