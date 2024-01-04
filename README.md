@@ -28,7 +28,7 @@ Javascript file - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazo
 CSS File - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css)
 
 
-## Default - Legacy 
+## Default - Legacy Player
 
 Token - 27WuRf93tQ54Ub/yh8dMDmbcAQS96tanEOIrx0V1I5NMg+DRNP3OUUjSlQ75Q/2d
 
