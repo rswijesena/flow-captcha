@@ -15,13 +15,6 @@ This documentation would help you to understand how to build a custom react-capt
 2. Add an attribute to the component. Attribute name is - onAccept
 3. In the flow page’s captcha component set the value for attribute name.  The value should be the name of your next outcome where you need to route your flow upon successful form submission
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-
 ## Default New Player 
 
 Sample flow - 
