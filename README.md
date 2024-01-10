@@ -23,7 +23,8 @@ Sample flow -
 
 Token - 27WuRf93tQ54Ub/yh8dMDmbcAQS96tanEOIrx0V1I5NMg+DRNP3OUUjSlQ75Q/2d
 
-Javascript file - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.js](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.js)
+Javascript file - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaNew.js](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaNew.js)
+
 
 CSS File - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.css)
 
@@ -33,8 +34,8 @@ CSS File - [https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.co
 Token - 27WuRf93tQ54Ub/yh8dMDmbcAQS96tanEOIrx0V1I5NMg+DRNP3OUUjSlQ75Q/2d
 
 Java script file - 
+[https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.js](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaLegacy.js)
 
-[https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaNew.js](https://master-boomi-flow-assets-prod-ap-southeast-2.s3.amazonaws.com/fffdd68c-edd1-435c-8d62-be6f3c42d7b0/CaptchaNew.js)
 
 CSS File - same css file will work for both players. 🙂
 
